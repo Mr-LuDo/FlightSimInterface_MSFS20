@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef _MSFS
-#define _MSFS
+#ifndef MSFS_H
+#define MSFS_H
 
 #include <windows.h>
 #include <tchar.h>
@@ -69,4 +69,4 @@ enum GROUP_REQUEST {
 };
 
 
-#endif // !_MSFS
+#endif // MSFS_H

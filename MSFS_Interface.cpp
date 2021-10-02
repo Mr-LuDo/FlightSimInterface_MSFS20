@@ -42,7 +42,7 @@ void DataRequest() {
         hr = SimConnect_AddToDataDefinition(hSimConnect, SIMCONNECT_GROUP_PRIORITY_STANDARD, "Plane Longitude", "degrees");
 
         hr = SimConnect_SubscribeToSystemEvent(hSimConnect, EVENT_SIM_1SEC, "1sec");
-        hr = SimConnect_SubscribeToSystemEvent(hSimConnect, EVENT_SIM_STATE, "Sim");
+        hr = SimConnect_SubscribeToSystemEvent(hSimConnect, EVENT_SIM_STATE, "Sim");    // sim ON/OFF
 
         //hr = SimConnect_SubscribeToSystemEvent(hSimConnect, EVENT_SIM_PAUSE_STATE, "Pause");
         //hr = SimConnect_SubscribeToSystemEvent(hSimConnect, EVENT_SIM_FRAME, "Frame");
